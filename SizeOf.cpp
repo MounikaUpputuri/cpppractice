@@ -25,6 +25,10 @@ int main()
     cout<<LLONG_MAX<<endl;
     cout<<SHRT_MIN<<endl;
     cout<<SHRT_MAX<<endl;
+    cout<<CHAR_MIN<<endl;
+    cout<<CHAR_MAX<<endl;
+
+    
 
     //size of can also used in the variables
 
@@ -35,6 +39,11 @@ int main()
     double area{34.23};
     cout<<sizeof area<<endl;
     cout<<sizeof(area)<<endl;
+
+    char Hi{'f'};
+    cout<<sizeof(Hi)<<endl;
+
+
 
     
 
