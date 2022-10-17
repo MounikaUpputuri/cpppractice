@@ -11,7 +11,6 @@ int main()
     cout<<sizeof(long double)<<" is size of long double"<<endl;
     cout<<sizeof(short)<<" is size of short"<<endl;
     cout<<sizeof(long long)<<" is size of long long "<<endl;
-
     cout<<"---------------------------"<<endl;
 
     //size of float
@@ -28,10 +27,7 @@ int main()
     cout<<CHAR_MIN<<endl;
     cout<<CHAR_MAX<<endl;
 
-    
-
-    //size of can also used in the variables
-
+   //size of can also used in the variables
     int age=21;
     cout<<sizeof(age)<<endl;
     cout<<sizeof age <<endl;   
@@ -41,10 +37,6 @@ int main()
     cout<<sizeof(area)<<endl;
 
     char Hi{'f'};
-    cout<<sizeof(Hi)<<endl;
-
-
-
-    
+    cout<<sizeof(Hi)<<endl;   
 
 }
