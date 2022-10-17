@@ -2,11 +2,19 @@
 using namespace std;
 int main()
 {
-cout<<"hello"<<endl;
-cout<<"New change";
-cout<<"Change from newchange branch";
-cout<<"added another branch"<<endl;
-cout<<"end"
+    int age = 21;
+    cout<<age<<endl;
+    
+    int width{0};
+    int length{0};
+    cout<<"enter room width"<<endl;
+    cin>>width;
+    cout<<"enter room length"<<endl;
+    cin>>length;
+    cout<<"rom area is "<<width*length<<endl;
+    return 0;
+
+
 }
 
 
