@@ -24,7 +24,17 @@ int main()
     cout<<"values added to vector:"<<values.at(4)<<endl;
     //cout<<"values added to vector:"<<values.at(6)<<endl;//m_range_check
 
+    //2Dvector
+    vector <vector<int>> movie_rating{
+        {1,2,3,4,5},
+        {1,2,3,4,5},
+        {1,2,3,4,5}
+        };
+        cout<<"vector position:"<<movie_rating[1][0]<<endl;
+        cout<<"vector position:"<<movie_rating[1][1]<<endl;
+        cout<<"vector position:"<<movie_rating[1][2]<<endl;
+    }
 
 
 
-}
+
