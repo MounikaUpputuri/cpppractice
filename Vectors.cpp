@@ -33,6 +33,52 @@ int main()
         cout<<"vector position:"<<movie_rating[1][0]<<endl;
         cout<<"vector position:"<<movie_rating[1][1]<<endl;
         cout<<"vector position:"<<movie_rating[1][2]<<endl;
+
+        vector <int>vector1;
+        vector <int> vector2;
+        vector1.push_back(10);
+        vector1.push_back(20);
+        cout<<"vector at respctive positions:"<<vector1[0]<<endl;
+        cout<<"vector at respctive positions:"<<vector1[1]<<endl;
+        cout<<"vector at respctive positions:"<<vector1.at(0)<<endl;
+        cout<<"vector at respctive positions:"<<vector1.at(1)<<endl;
+        vector2.push_back(100);
+        vector2.push_back(200);
+        cout<<"vector at respctive positions:"<<vector2[0]<<endl;
+        cout<<"vector at respctive positions:"<<vector2[1]<<endl;
+        cout<<"vector at respctive positions:"<<vector2.at(0)<<endl;
+        cout<<"vector at respctive positions:"<<vector2.at(1)<<endl;
+
+        vector <vector<int>>  vector2d{};
+        
+            vector2d.push_back(vector1);
+            vector2d.push_back(vector2);
+        
+        cout<<"elements in 2d vectcor:"<<vector2d[0][0]<<endl;
+        cout<<"elements in 2d vectcor:"<<vector2d[0][1]<<endl;
+        cout<<"elements in 2d vectcor:"<<vector2d[1][0]<<endl;
+        cout<<"elements in 2d vectcor:"<<vector2d[1][1]<<endl;
+        vector1.at(0)=1000;
+        cout<<"elements in 2d vectcor:"<<vector2d[0][0]<<endl;
+        cout<<"elements in 2d vectcor:"<<vector2d[0][1]<<endl;
+        cout<<"elements in 2d vectcor:"<<vector2d[1][0]<<endl;
+        cout<<"elements in 2d vectcor:"<<vector2d[1][1]<<endl;
+        cout<<"vector at respctive positions:"<<vector1[0]<<endl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 
