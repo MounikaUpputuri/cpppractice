@@ -10,11 +10,30 @@ int main()
     //cout<<"counter value is : "<<counter<<endl;
     //cout<<"result value is :"<<result<<endl;
 
-    //post increment
+    /*post increment
     int counter{10};
     int result{0};
     cout<<"counter value is: "<<counter<<endl;
     result=counter++;
+    cout<<"counter value is : "<<counter<<endl;
+    cout<<"result value is :"<<result<<endl;
+    */
+
+    //post decrement
+    /*
+    int counter{10};
+    int result{0};
+    cout<<"counter value is: "<<counter<<endl;
+    result=counter--;
+    cout<<"counter value is : "<<counter<<endl;
+    cout<<"result value is :"<<result<<endl;
+    */
+
+    //pre decrement
+    int counter=10;
+    int result=0;
+    cout<<"counter value is: "<<counter<<endl;
+    result=--counter;
     cout<<"counter value is : "<<counter<<endl;
     cout<<"result value is :"<<result<<endl;
 
