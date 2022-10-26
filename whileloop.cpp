@@ -29,7 +29,20 @@ int main()
         cin>>num2;
     }
     cout<<"thanks!"<<endl;
-
+    bool done{false};
+    int number{0};
+    while(!done){
+        cout<<"enter the number betweek 1 to 5"<<endl;
+        cin>>number;
+        if(number<=1||number>=5)
+        {
+            cout<<"number is in between 1 to 5"<<endl;
+        }
+        else{
+            cout<<"not in range"<<endl;
+            done=true;
+        }
+    }
 
 
 
